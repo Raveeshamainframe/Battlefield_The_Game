@@ -5,7 +5,7 @@ public class Bomb implements Weapon{
     @Override
     public void Shoot() {
         ThreadLocalRandom random = ThreadLocalRandom. current();
-         rand = random. nextInt(1, 11);
+         rand = random. nextInt(0, 11);
 
     }
 
